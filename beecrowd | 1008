@@ -1,0 +1,9 @@
+
+1008 - Salário
+
+a=float(input())
+b=float(input())
+c=float(input())
+s=(b*c)
+print('NUMBER = %i' %a)
+print('SALARY = U$ %.2F' %s)
