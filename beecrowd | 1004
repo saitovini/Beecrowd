@@ -1,0 +1,7 @@
+
+1004 - Produto Simples
+
+a=int(input())
+b=int(input())
+s=a*b 
+print('PROD = %i' %s)
