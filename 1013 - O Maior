@@ -1,0 +1,7 @@
+entrada = input()
+a, b, c= map(float, entrada.split())
+
+maiorAB = (a+b+abs(a-b))/2
+maiorC = (c+maiorAB+abs(c-maiorAB))/2
+
+print(int(maiorC),"eh o maior")
